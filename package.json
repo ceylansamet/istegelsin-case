@@ -1,0 +1,22 @@
+{
+  "name": "istegelsin-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:consumer": "node consumer/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "iconv-lite": "^0.4.15",
+    "request": "^2.75.0",
+    "xml2js": "^0.4.17",
+    "avsc": "^5.6.2",
+    "node-rdkafka": "^2.3.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -17,6 +17,11 @@ $ git clone git@github.com:ceylansamet/istegelsin-case.git
 * `./scripts/start-kafka.sh` - starts kafka inside docker container.
 * `./scripts/create-topic.sh` - creates kafka topic.
 * `npm run start:consumer` - starts consumer.
+* `node index.js` - start topic write API.
+
+## Write Kafka istegelsin-case-study topic
+
+* `GET localhost:3000/write-topic`
 
 ## Screenshoots
 
